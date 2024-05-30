@@ -49,17 +49,19 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                                         ) : (
                                                             <>
 
-                                                                <div className='p-2'>
+                                                                <div className='p-2 btn-group'>
                                                                     <Link
                                                                         href={route('login')}
-                                                                        className="tex-sm m-1"
+                                                                        id='loginBtn'
+                                                                        className="text-sm text-decoration-none"
                                                                     >
                                                                         Login
                                                                     </Link>
 
                                                                     <Link
                                                                         href={route('register')}
-                                                                        className="text-sm"
+                                                                        id='registerBtn'
+                                                                        className="text-sm text-decoration-none"
                                                                     >
                                                                         Register
                                                                     </Link>

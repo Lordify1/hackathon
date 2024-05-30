@@ -1,0 +1,8 @@
+view feeds
+like, comment, share, follow, unfollow
+turn on post notification
+receive job alerts - maximum for free is 10 per day
+edit profile
+add cv
+use bot
+message business directly
